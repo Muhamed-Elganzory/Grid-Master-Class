@@ -1,0 +1,263 @@
+@media (min-width: 500px) and (max-width: 999px) {
+    .main-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas:
+            "howtouse howtouse"
+            "mobile mobile"
+            "keybord games"
+            "macintosh macintosh"
+            "twitter icloud"
+            "experience icloud"
+            "muchBetter muchBetter"
+            "vision vision";
+    }
+
+    /*^ ---------- How To Use ---------- */
+    .how-to-use h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .learn-how-to-use {
+        width: 80%;
+        padding-bottom: 50px;
+    }
+
+    /*^ ---------- Keyboard ---------- */
+    .Keyboard img {
+        width: 220px;
+    }
+
+    .Keyboard {
+        padding: 60px 0px;
+    }
+
+    .content-keyboard h3 {
+        font-size: 18px;
+    }
+
+    /*^ ---------- Games ---------- */
+    .games img {
+        width: 220px;
+    }
+
+    .games h2 {
+        font-size: 18px;
+    }
+
+    .games {
+        padding: 90px 0px;
+    }
+
+    /*^ ---------- Macintosh ---------- */
+    .left img {
+        width: 300px;
+        left: -170px;
+        top: 76%;
+        bottom: 0px;
+    }
+
+    .macintosh .test {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    /*^ ---------- iCloud ---------- */
+    .icloud {
+        padding: 60px 10px;
+    }
+
+    .content-cloud h2 {
+        padding-top: 25px;
+    }
+
+    .image-cloud {
+        width: 220px;
+        height: 220px;
+        padding: 60px;
+    }
+
+    /*^ ---------- Twittere ---------- */
+    .conten-twitter {
+        width: 200px;
+        height: 200px;
+    }
+
+    .twitter {
+        padding: 60px 0px;
+    }
+
+    /*^ ---------- Experience ---------- */
+    .experience {
+        padding-top: 120px;
+        background-size: 90% 30%;
+    }
+
+    .experience img {
+        width: 250px;
+        position: relative;
+        left: -12%;
+        bottom: -1px;
+    }
+
+    .experience h2 {
+        width: 100%;
+    }
+
+    /*^ ---------- MuchBetter ---------- */
+    .muchBetter {
+        padding: 30px 0px;
+    }
+
+    /*^ ---------- Vision ---------- */
+    .vision {
+        padding-bottom: 20px;
+        justify-content: start;
+        justify-content: space-evenly;
+    }
+
+    .vision img {
+        width: 230px;
+        height: 230px;
+        position: relative;
+        left: -40px;
+    }
+
+    .vision h2 {
+        color: #fff;
+        font-size: 20px;
+        width: 130px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .main-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "mobile mobile howtouse howtouse"
+            "keybord macintosh macintosh icloud"
+            "games experience experience icloud"
+            "twitter muchBetter vision vision"
+        ;
+    }
+
+    /*^ ---------- How To Use ---------- */
+    .how-to-use h1 {
+        font-size: 50px;
+        line-height: 63px;
+    }
+
+    .learn-how-to-use {
+        width: 90%;
+    }
+
+    /*^ ---------- Keyboard ---------- */
+    .Keyboard img {
+        width: 320px;
+    }
+
+    .Keyboard {
+        padding: 60px 0px;
+    }
+
+    .content-keyboard h3 {
+        font-size: 18px;
+    }
+
+    /*^ ---------- Games ---------- */
+    .games img {
+        width: 220px;
+    }
+
+    .games h2 {
+        font-size: 18px;
+    }
+
+    .games {
+        padding: 90px 0px;
+    }
+
+    /*^ ---------- Macintosh ---------- */
+    .left img {
+        width: 250px;
+        left: -130px;
+        top: 95%;
+        bottom: 0px;
+    }
+
+    .macintosh .test {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    /*^ ---------- iCloud ---------- */
+    .icloud {
+        padding: 70px 10px;
+    }
+
+    .content-cloud h2 {
+        padding-top: 25px;
+    }
+
+    .image-cloud {
+        width: 320px;
+        height: 320px;
+        padding: 60px;
+    }
+
+    /*^ ---------- Twittere ---------- */
+    .conten-twitter {
+        width: 200px;
+        height: 200px;
+    }
+
+    .twitter {
+        padding: 60px 0px;
+    }
+
+    /*^ ---------- Experience ---------- */
+    .experience {
+        padding-top: 100px;
+        background-size: 90% 30%;
+    }
+
+    .experience img {
+        width: 550px;
+        position: relative;
+        left: -12%;
+        bottom: -27px;
+    }
+
+    .experience h2 {
+        width: 100%;
+    }
+
+    /*^ ---------- MuchBetter ---------- */
+    .muchBetter {
+        padding: 30px 0px;
+    }
+
+    /*^ ---------- Vision ---------- */
+    .vision {
+        padding-bottom: 20px;
+        justify-content: start;
+        justify-content: space-evenly;
+    }
+
+    .vision img {
+        width: 230px;
+        height: 230px;
+        position: relative;
+        left: -40px;
+    }
+
+    .vision h2 {
+        color: #fff;
+        font-size: 20px;
+        width: 130px;
+    }
+}

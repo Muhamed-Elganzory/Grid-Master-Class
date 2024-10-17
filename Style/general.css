@@ -1,0 +1,46 @@
+/*^ ---------- CSS General ---------- */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+    filter: contrast(120%) brightness(110%);
+}
+
+.p-top-bottom {
+    padding: 20px 0px;
+}
+
+.spacing-uppercase {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*^ ---------- Font Family ---------- */
+.f-style-Montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #9fa3a7;
+}
+
+.f-style-Arvo {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #333;
+}
+
+.f-style-OpenSans {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #9fa3a7;
+}

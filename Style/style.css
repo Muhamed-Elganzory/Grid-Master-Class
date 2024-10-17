@@ -1,0 +1,337 @@
+@import url(./general.css);
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "mobile mobile howtouse howtouse"
+        "keybord macintosh macintosh icloud"
+        "games experience experience icloud"
+        "twitter muchBetter vision vision"
+    ;
+}
+
+/*^ ---------- Mobile ---------- */
+.mobile {
+    grid-area: mobile;
+    background-color: #FFFFFF;
+}
+
+.test {
+    padding-top: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mobile-content {
+    width: 25%;
+}
+
+.mobile-image img {
+    width: 250px;
+}
+
+/*^ ---------- How To Use ---------- */
+.how-to-use {
+    grid-area: howtouse;
+    background-color: #F7F8F9;
+}
+
+.how-to-use h1 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.learn-how-to-use {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-top: 8%;
+    margin: auto;
+    text-align: center;
+}
+
+.learn-how-to-use a {
+    color: #27B9C2;
+}
+
+/*^ ---------- Keyboard ---------- */
+.Keyboard {
+    grid-area: keybord;
+    background-color: #F05638;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Keyboard img {
+    width: 320px;
+}
+
+.content-keyboard h3 {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    color: #fffbfb;
+    width: 200px;
+}
+
+.content-keyboard a {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 26px;
+    color: #ffc80a;
+    text-decoration: none;
+}
+
+.content-keyboard a::after {
+    content: '\f105';
+    font: var(--fa-font-solid);
+}
+
+/*^ ---------- Macintosh ---------- */
+.macintosh {
+    grid-area: macintosh;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #ffffff;
+}
+
+.macintosh .test {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.left {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    width: 50%;
+}
+
+.content-macintosh h3 {
+    width: 180px;
+}
+
+.left img {
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: -250px;
+}
+
+.macintosh a {
+    color: #27B9C2;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.macintosh a::after {
+    content: '\f105';
+    font: var(--fa-font-solid);
+}
+
+/*^ ---------- iCloud ---------- */
+.icloud {
+    grid-area: icloud;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #8F76BC;
+    padding: 30px 5% 70px;
+}
+
+.image-cloud {
+    border-radius: 50%;
+    background-color: #8166B0;
+    width: 370px;
+    height: 370px;
+    padding: 80px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-cloud span {
+    color: #fff;
+}
+
+.image-cloud span i {
+    color: #ffc80a;
+}
+
+.content-cloud h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.content-cloud p {
+    color: #fff;
+}
+
+.content-cloud button {
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 700;
+    background-color: #FFC80A;
+}
+
+
+/*^ ---------- Games ---------- */
+.games {
+    grid-area: games;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8F9;
+}
+
+.games a {
+    color: #27B9C2;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.games img {
+    width: 240px;
+    position: relative;
+    left: -5%;
+}
+
+.games a::after {
+    content: '\f105';
+    font: var(--fa-font-solid);
+}
+
+/*^ ---------- Experience ---------- */
+.experience {
+    grid-area: experience;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #93B6B7;
+    position: relative;
+    background-image: url(../Images/UX.png);
+    background-size: 70% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.experience span {
+    background-color: #F05638;
+    color: #fff;
+    font-size: 8px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 0px 15px;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.experience h2 {
+    text-align: center;
+    width: 300px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.experience img {
+    width: 750px;
+    position: relative;
+    left: -8.5%;
+    bottom: -23px;
+
+}
+
+/*^ ---------- Twittere ---------- */
+.twitter {
+    grid-area: twitter;
+    background-color: #38D5F4;
+}
+
+.conten-twitter {
+    border-radius: 50%;
+    margin: auto;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #35CFED;
+}
+
+.conten-twitter img {
+    width: 43.5px;
+}
+
+.conten-twitter h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #fff;
+}
+
+/*^ ---------- MuchBetter ---------- */
+.muchBetter {
+    grid-area: muchBetter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8F9;
+}
+
+.muchBetter span {
+    background-color: #7BC424;
+    color: #fff;
+    font-size: 8px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 0px 15px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/*^ ---------- Vision ---------- */
+.vision {
+    grid-area: vision;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2C2C2C;
+}
+
+.vision h2 {
+    color: #fff;
+    width: 270px;
+}
+
+.vision img {
+    width: 230px;
+    height: 230px;
+}
